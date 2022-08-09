@@ -1,9 +1,14 @@
 import React from "react";
+import UsersResults from "../components/users/UsersResults";
+import { useEffect } from "react";
+import UserSearch from "../components/users/UserSearch";
 
 const Home = () => {
   return (
     <div className="flex flex-column items-center justify-center">
-      <h1 className="text-6xl">Welcome</h1>
+      {/* SEARCH components */}
+      <UserSearch />
+      <UsersResults />
     </div>
   );
 };
