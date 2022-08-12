@@ -5,7 +5,7 @@ import UserSearch from "../components/users/UserSearch";
 
 const Home = () => {
   return (
-    <div className="flex flex-column items-center justify-center">
+    <div className="flex flex-col items-center justify-center">
       {/* SEARCH components */}
       <UserSearch />
       <UsersResults />

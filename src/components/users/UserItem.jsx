@@ -16,7 +16,7 @@ const UserItem = ({ user: { login, avatar_url } }) => {
         <div>
           <h2 className="card-title text-gray-500">{login}</h2>
           <Link
-            className="text-base-content hover:text-opacity-40 hover:bg-black"
+            className="text-base-content hover:text-opacity-40 hover:bg-grey rounded"
             to={`/user/${login}`}
           >
             Visit Profile
