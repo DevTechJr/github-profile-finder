@@ -9,6 +9,6 @@
           <a href="https://docs.github.com/en/rest">GitHub REST API</a>
         </button>
         <button className="hover:bg-gray-500 p-2 rounded m-5">
-          <a href="https://docs.github.com/en/rest">GitHub Repo Link</a>
+          <a href="https://anirudh-github-finder.netlify.app/">Project Viewing</a>
         </button>
       </div>
